@@ -34,7 +34,7 @@ from pathlib import Path
 # ============================================================
 
 # TODO: In your custom app, change the URL to work with a different page.
-PAGE_URL: str = "https://arxiv.org/abs/2602.20021"
+PAGE_URL: str = "https://arxiv.org/abs/2510.26784"
 
 # Let them know who we are (and that we're doing educational web mining).
 HTTP_REQUEST_HEADERS: dict = {

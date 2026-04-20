@@ -396,7 +396,6 @@ def run_transform(
     type_token_ratio: float = (
         round(unique_token_count / token_count, 4) if token_count > 0 else 0.0
     )
-    # 👇 ADD IT RIGHT HERE
 
     sentences = re.split(r'[.!?]+', abstract_clean)
     sentences = [s.strip() for s in sentences if s.strip()]
